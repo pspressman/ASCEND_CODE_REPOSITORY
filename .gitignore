@@ -1,0 +1,13 @@
+# ONLY allow .py and .md files - exclude everything else
+*
+!*/
+!*.py
+!*.md
+!.gitignore
+
+# Still exclude these even if .py or .md
+*CliniDeID*
+*env/
+*venv/
+__pycache__/
+*.log
